@@ -3,10 +3,10 @@
         @apply rounded-md border-0 h-[5vh] capitalize tracking-widest font-semibold cursor-pointer
     }
     .report-btn {
-        @apply rounded-md border-0 h-[5vh] capitalize tracking-widest font-semibold cursor-pointer bg-white text-red-800 w-[28vw] lg:w-[18vw]
+        @apply rounded-md border-0 h-[5vh] capitalize tracking-widest font-semibold cursor-pointer bg-white text-red-800 w-[28vw] lg:w-[18vw] lg:h-[7vh]
     }
     .learn-more-btn {
-        @apply rounded-md border-0 h-[5vh] capitalize tracking-widest font-semibold cursor-pointer
+        @apply rounded-md border-0 h-[5vh] capitalize tracking-widest font-semibold cursor-pointer lg:h-[7vh]
     }
 
     .header-login-btn {

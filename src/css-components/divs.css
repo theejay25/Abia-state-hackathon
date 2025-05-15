@@ -32,4 +32,8 @@
     .complaintcard-div{
         @apply bg-red-400 h-[36vh] w-[90%] lg:h-[50vh] lg:w-[30%]
     }
+
+    .middle-section-div {
+        @apply h-[100vh] w-full bg-red-500 flex flex-col gap-5 justify-center items-center px-4
+    }
 }

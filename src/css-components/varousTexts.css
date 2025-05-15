@@ -1,6 +1,6 @@
 @layer {
     .title-text {
-        @apply tracking-wider font-bold
+        @apply tracking-wider font-bold capitalize
     }
 
     .subtitle-text {
