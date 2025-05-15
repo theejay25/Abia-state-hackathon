@@ -1,6 +1,6 @@
 @layer {
     .title-text {
-        @apply text-4xl text-white tracking-wider font-bold
+        @apply tracking-wider font-bold
     }
 
     .subtitle-text {
