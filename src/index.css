@@ -1,1 +1,5 @@
 @import 'tailwindcss';
+
+@import './css-components/divs.css';
+@import './css-components/button.css';
+@import './css-components/varousTexts.css';

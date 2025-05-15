@@ -1,0 +1,28 @@
+@layer {
+    .btn {
+        @apply rounded-md border-0 h-[5vh] capitalize tracking-widest font-semibold cursor-pointer
+    }
+    .report-btn {
+        @apply rounded-md border-0 h-[5vh] capitalize tracking-widest font-semibold cursor-pointer bg-white text-red-800 w-[28vw] lg:w-[18vw]
+    }
+    .learn-more-btn {
+        @apply rounded-md border-0 h-[5vh] capitalize tracking-widest font-semibold cursor-pointer text-white bg-red-800 ring-2 ring-white w-[28vw] lg:w-[18vw]
+    }
+
+    .header-login-btn {
+        @apply rounded-md border-0 h-[4vh] capitalize tracking-widest font-semibold cursor-pointer text-green-600 bg-white w-[25vw] ring-1 ring-green-600 lg:w-[15vw]
+    }
+
+    .header-login-btn:hover{
+        @apply bg-gray-100 duration-100
+    }
+/*     
+    .header-emergency-btn {
+        @apply rounded-md border-0 h-[5vh] capitalize tracking-widest font-semibold cursor-pointer text-white bg-green-600 w-[29vw]
+    }
+
+    .header-emergency-btn:hover{
+        @apply bg-green-700 duration-100
+    }
+     */
+}

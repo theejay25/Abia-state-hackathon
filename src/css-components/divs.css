@@ -1,0 +1,22 @@
+@layer {
+    .header {
+        @apply h-[8vh] bg-white w-full fixed flex flex-row items-center justify-between px-7 border-b-2
+    }
+
+    .hero-section{
+        @apply h-[100dvh] bg-red-800
+    }
+
+    .dropdown-div {
+        @apply w-[53%] bg-white h-[31vh] absolute ml-50 duration-200 lg:opacity-100 lg:mt-0 lg:ml-97 lg:w-[63vw] lg:flex lg:h-[8vh] lg:flex-row lg:justify-between lg:items-start
+    }
+
+    .side-div {
+        @apply w-full h-full flex justify-center items-center lg:w-[50%] px-4 flex-col gap-5 lg:px-12
+
+    }
+
+    .ul-div {
+        @apply flex flex-col w-full h-full justify-around capitalize tracking-wider lg:flex-row lg:w-[32vw]
+    }
+}
