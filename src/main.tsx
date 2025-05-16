@@ -1,4 +1,4 @@
-import { Component, StrictMode } from 'react'
+import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
@@ -10,12 +10,12 @@ import Index from './pages/Index.tsx'
 
 const router = createBrowserRouter([{
   path: '/',
-  element: <App />,
+  element: <Index />,
   errorElement: <ErrorPage />
 },
 {
   path: '/index',
-  element: <Index />
+  element: <App />
 }
 ])
 

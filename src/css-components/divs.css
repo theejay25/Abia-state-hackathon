@@ -19,4 +19,37 @@
     .ul-div {
         @apply flex flex-col w-full h-full justify-around capitalize tracking-wider lg:flex-row lg:w-[32vw]
     }
+
+    
+    .explore-div {
+        @apply w-full px-3 flex flex-col gap-12 items-center justify-center lg:items-start lg:px-17
+    }
+
+    .card-holster-div{
+            @apply w-full  flex flex-col items-center gap-12 lg:flex-row lg:justify-around
+    }
+
+    .complaintcard-div{
+        @apply bg-red-400 h-[36vh] w-[90%] lg:h-[50vh] lg:w-[30%]
+    }
+
+    .middle-section-div {
+        @apply h-[100vh] w-full bg-red-500 flex flex-col gap-5 justify-center items-center px-4
+    }
+
+    .plan-section-div {
+        @apply w-full h-[214vh] px-4 flex flex-col lg:flex-row  lg:h-[325vh]
+    }
+
+    .stepcard-div{
+        @apply w-full h-[45vh] flex flex-col gap-2 lg:px-20 lg:h-[80vh]
+    }
+
+    .resolution-section-div {
+        @apply bg-red-700 h-[173vh] w-full px-5 py-4 lg:h-[70vh]
+    }
+
+    .resolutionCards {
+        @apply bg-white h-[50vh] mt-7 px-5 py-5 flex flex-col items-center gap-3 lg:w-[30vw] 
+    }
 }
