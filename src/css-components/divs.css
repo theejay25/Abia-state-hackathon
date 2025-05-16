@@ -38,7 +38,7 @@
     }
 
     .plan-section-div {
-        @apply w-full h-[325vh] px-4 flex flex-col lg:flex-row lg:h-[100vh]
+        @apply w-full h-[214vh] px-4 flex flex-col lg:flex-row  lg:h-[325vh]
     }
 
     .stepcard-div{
