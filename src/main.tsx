@@ -10,12 +10,12 @@ import Index from './pages/Index.tsx'
 
 const router = createBrowserRouter([{
   path: '/',
-  element: <App />,
+  element: <Index />,
   errorElement: <ErrorPage />
 },
 {
   path: '/index',
-  element: <Index />
+  element: <App />
 }
 ])
 
