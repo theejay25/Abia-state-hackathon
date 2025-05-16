@@ -52,4 +52,13 @@
     .resolutionCards {
         @apply bg-white h-[50vh] mt-7 px-5 py-5 flex flex-col items-center gap-3 lg:w-[30vw] 
     }
+
+    .pen-zero-div {
+        @apply bg-white w-full h-[35vh] p-4 flex flex-col gap-6 lg:flex-row lg:h-[42vh]
+    }
+
+    input {
+        @apply bg-white h-[5vh] w-[70%] rounded-md outline-0 ring-1 ring-red-800 px-2 lg:w-[60%] lg:h-[7vh]
+    }
+
 }
