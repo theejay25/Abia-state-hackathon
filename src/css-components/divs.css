@@ -36,4 +36,20 @@
     .middle-section-div {
         @apply h-[100vh] w-full bg-red-500 flex flex-col gap-5 justify-center items-center px-4
     }
+
+    .plan-section-div {
+        @apply w-full h-[325vh] px-4 flex flex-col lg:flex-row lg:h-[100vh]
+    }
+
+    .stepcard-div{
+        @apply w-full h-[45vh] flex flex-col gap-2 lg:px-20 lg:h-[80vh]
+    }
+
+    .resolution-section-div {
+        @apply bg-red-700 h-[173vh] w-full px-5 py-4 lg:h-[70vh]
+    }
+
+    .resolutionCards {
+        @apply bg-white h-[50vh] mt-7 px-5 py-5 flex flex-col items-center gap-3 lg:w-[30vw] 
+    }
 }
