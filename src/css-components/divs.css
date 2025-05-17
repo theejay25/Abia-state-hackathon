@@ -61,4 +61,12 @@
         @apply bg-white h-[5vh] w-[70%] rounded-md outline-0 ring-1 ring-red-800 px-2 lg:w-[60%] lg:h-[7vh]
     }
 
+    .connect-section-div {
+        @apply bg-red-800 w-full h-[55vh] py-6
+    }
+
+    .footer-div {
+        @apply bg-red-950 w-full h-[70vh]
+    }
+
 }

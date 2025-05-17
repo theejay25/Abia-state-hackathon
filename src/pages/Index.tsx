@@ -1,4 +1,6 @@
+import ConnectSection from "../components/ConnectSection"
 import ExploreSection from "../components/ExploreSection"
+import Footer from "../components/Footer"
 import HeroSection from "../components/HeroSection"
 import MiddleSection from "../components/MiddleSection"
 import NavBar from "../components/NavBar"
@@ -16,6 +18,8 @@ const Index = () => {
     <PlanSection />
     <ResolutionSection />
     <PenZero />
+    <ConnectSection />
+    <Footer />
     </>
   )
 }

@@ -19,6 +19,10 @@
     .header-login-btn:hover{
         @apply bg-gray-100 duration-100
     }
+
+    .footer-submit-button {
+        @apply bg-transparent text-white ring-1 ring-red-800 rounded-md capitalize text-lg h-[5vh] w-[20vw] cursor-pointer
+    }
 /*     
     .header-emergency-btn {
         @apply rounded-md border-0 h-[5vh] capitalize tracking-widest font-semibold cursor-pointer text-white bg-green-600 w-[29vw]
