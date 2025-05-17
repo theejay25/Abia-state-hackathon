@@ -21,7 +21,7 @@
     }
 
     .footer-submit-button {
-        @apply bg-transparent text-white ring-1 ring-red-800 rounded-md capitalize text-lg h-[5vh] w-[20vw] cursor-pointer
+        @apply bg-transparent text-white ring-1 ring-red-800 rounded-md capitalize text-lg h-[5vh] w-[20vw] lg:h-[7vh] cursor-pointer
     }
 /*     
     .header-emergency-btn {
