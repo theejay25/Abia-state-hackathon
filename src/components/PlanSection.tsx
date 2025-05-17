@@ -1,6 +1,10 @@
 import Button from './Button';
 import { FaAngleRight } from "react-icons/fa";
 import StepCard from './StepCard';
+import step1 from '../assets/images/step1Pic.png'
+import step2 from '../assets/images/step2Pic.png'
+import step3 from '../assets/images/step3Pic.png'
+import step4 from '../assets/images/step4Pic.png'
 
 
 
@@ -37,7 +41,7 @@ const PlanSection = () => {
                         update <FaAngleRight className='mt-0.5'/>
                     </Button>
                 </div>
-                <img src="" alt="image placeholder" className='w-full bg-gray-300 h-[25vh] rounded-lg mt-1 lg:h-[40vh]' />
+                <img src={step1} alt="image placeholder" className='w-full bg-gray-300 h-[25vh] rounded-lg mt-1 lg:h-[40vh]' />
                 </StepCard>
 
                 <StepCard className='stepcard-div' title='in progress' steps='step 2'>
@@ -51,7 +55,7 @@ const PlanSection = () => {
                         notify <FaAngleRight className='mt-0.5'/>
                     </Button>
                 </div>
-                <img src="" alt="image placeholder" className='w-full bg-gray-300 h-[25vh] rounded-lg mt-1 lg:h-[40vh]' />
+                <img src={step2} alt="image placeholder" className='w-full bg-gray-300 h-[25vh] rounded-lg mt-1 lg:h-[40vh]' />
                 </StepCard>
 
                 <StepCard className='stepcard-div' title='resolved' steps='step 3'>
@@ -65,7 +69,7 @@ const PlanSection = () => {
                         close <FaAngleRight className='mt-0.5'/>
                     </Button>
                 </div>
-                <img src="" alt="image placeholder" className='w-full bg-gray-300 h-[25vh] rounded-lg mt-1 lg:h-[40vh]' />
+                <img src={step3} alt="image placeholder" className='w-full bg-gray-300 h-[25vh] rounded-lg mt-1 lg:h-[40vh]' />
                 </StepCard>
 
                 <StepCard className='stepcard-div' title='follow up' steps='step 4'>
@@ -79,7 +83,7 @@ const PlanSection = () => {
                         close <FaAngleRight className='mt-0.5'/>
                     </Button>
                 </div>
-                <img src="" alt="image placeholder" className='w-full bg-gray-300 h-[25vh] rounded-lg mt-1 lg:h-[40vh]' />
+                <img src={step4} alt="image placeholder" className='w-full bg-gray-300 h-[25vh] rounded-lg mt-1 lg:h-[40vh]' />
                 </StepCard>
             </div>
         </div>    

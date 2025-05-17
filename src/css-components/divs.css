@@ -22,7 +22,7 @@
 
     
     .explore-div {
-        @apply w-full px-3 flex flex-col gap-12 items-center justify-center lg:items-start lg:px-17
+        @apply w-full px-3 flex flex-col gap-12 items-center justify-center lg:items-start lg:px-17 lg:py-17
     }
 
     .card-holster-div{
@@ -35,6 +35,7 @@
 
     .middle-section-div {
         @apply h-[100vh] w-full bg-red-500 flex flex-col gap-5 justify-center items-center px-4
+        
     }
 
     .plan-section-div {
