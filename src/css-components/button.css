@@ -13,7 +13,7 @@
     }
 
     .header-login-btn {
-        @apply rounded-md border-0 h-[4vh] capitalize tracking-widest font-semibold cursor-pointer text-green-600 bg-white w-[25vw] ring-1 ring-green-600 lg:w-[15vw]
+        @apply rounded-md border-0 h-[5vh] lg:mt-[-3%] capitalize tracking-widest font-semibold cursor-pointer text-green-600 bg-white w-[25vw] ring-1 ring-green-600 lg:w-[15vw]
     }
 
     .header-login-btn:hover{

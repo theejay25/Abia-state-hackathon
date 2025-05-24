@@ -2,7 +2,7 @@ import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 import { IoCloseOutline } from "react-icons/io5";
 import DropDown from "./DropDown";
-import logo from '/public/favicon.ico'
+import logo from '/favicon.ico'
 
 const NavBar = () => {
   const [clicked, setClicked] = useState(false);
