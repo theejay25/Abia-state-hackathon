@@ -10,7 +10,7 @@ const DropDown = ({className}: dropdownProps) => {
     <>
         <div className={className}>
 
-            <div className="h-[10%] mt-3">
+            <div className="h-[10%] mt-3 lg:bg-transparent">
                     <ul className="ul-div">
                         <li className='list'><a href="#">home</a></li>
                         <li className='list'><a href="#">report issue</a></li>

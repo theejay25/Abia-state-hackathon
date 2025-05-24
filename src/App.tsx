@@ -1,10 +1,17 @@
-
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Auth from "./pages/Auth"
+import Index from "./pages/Index"
 
 function App() {
 
   return (
     <>
-     <div className="bg-black text-whte text-center uppercase text-white">here</div>
+      <BrowserRouter>
+        <Routes>
+          <Route path={'/'} element={<Auth />} />
+          <Route path={'/home'} element={<Index />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
